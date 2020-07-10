@@ -1,3 +1,42 @@
+/* @MEDIA SCREEN -- COMMON BREAKPOINTS */
+
+/* 
+Mobile devices || 320px — 480px: 
+@media screen and (min-width: 320px)
+@media screen and (max-width: 480px)
+@media screen and (min-width: 320px) and (max-width: 480px)
+
+iPads, Tablets || 481px — 768px: 
+@media screen and (min-width: 481px)
+@media screen and (max-width: 768px)
+@media screen and (min-width: 481px) and (max-width: 768px)
+
+Small screens, laptops || 769px — 1024px: 
+@media screen and (min-width: 769px)
+@media screen and (max-width: 1024px)
+@media screen and (min-width: 769px) and (max-width: 1024px)
+
+Desktops, large screens || 1025px — 1200px: 
+@media screen and (min-width: 1025px)
+@media screen and (max-width: 1200px)
+@media screen and (min-width: 1025px) and (max-width: 1200px)
+
+Extra large screens, TV || 1201px and more:
+@media screen and (min-width: 1201px)
+
+*/
+
+/* 
+
+BREAKPOINTS FOR THE TINDOG PROJECT: 
+
+@media screen and (min-width: 1025px) {}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+*/
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -19,7 +58,26 @@ h3 {
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 995px) {
+p {
+    color: #8f8f8f;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4c68;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #ff8094;
+
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     h1, h2, h3, h4, h5, h6 {
         font-weight: 900;
         line-height: 1.5;
@@ -36,27 +94,26 @@ h3 {
     h3 {
         font-size: 1rem;
     }
-  }
-
-p {
-    color: #8f8f8f;
 }
 
-hr {
-    color: #f7afa6;
-    border-top: 5px dotted; 
-    border-bottom: none;
-    width: 8%;
-}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
 
-.container-fluid {
-    padding: 7% 15%;
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .container-fluid {
+        padding: 12% 15%;
+    }
 }
 
 /* Navigation Bar */
 
 #navbar {
-    overflow: hidden;
     background-color: #ff4c68;
     padding: 1% 15% 1%;
     position: fixed;
@@ -80,6 +137,16 @@ hr {
     font-weight: light;
 }
 
+@media screen and (min-width: 1025px) {
+    #navbar {
+        height: 5rem;
+    }
+    
+    .navbar-brand {
+        font-size: 2.5em;
+    }
+}
+
 
 /* Tittle Section */
 
@@ -89,11 +156,49 @@ hr {
 }
 
 .title-image {
-    right: 30%;
     position: absolute;
+    right: 30%;
     transform: rotate(30deg);
     width: 60%;    
 }
+
+.top-container {
+    padding: 10% 15%;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        text-align: center;
+        transform: rotate(0deg);
+        position: static;
+        width: 50%;
+    }
+
+    .top-container {
+        padding: 20% 15% 10%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        text-align: center;
+        transform: rotate(0deg);
+        position: static;
+    }
+
+    .top-container {
+        padding: 30% 15% 10%;
+    }
+}
+
 
 /* Download buttons  */
 
@@ -106,9 +211,7 @@ hr {
 
 #features {
     background-color: white;
-    padding: 3% 3%;
     position: relative;
-    /* z-index: 1; NO ES NECESARIO PONERLO POR LA CONFIGURACIÓN DE POSICIONES */
 }
 
 .icon-box {
@@ -116,12 +219,12 @@ hr {
 }
 
 .icon-features {
-    color: #ef8172;
+    color: #ff4c68;
     margin: 30px 0;
 }
 
 .icon-features:hover {
-    color: #ff4c68;
+    color: #ff8094;
 }
 
 .h3-features {
@@ -134,14 +237,12 @@ hr {
 
 #testimonials {
     background-color: #dedede;
-    /* color: white; */
     text-align: center;
     position: relative;
     padding-bottom: 0;
 }
 
 .testimonial-img {
-    /* border: 1px solid #ef8172; */
     border-radius: 50%;
     max-width: 100px;
     margin: 3%;
@@ -156,6 +257,12 @@ hr {
     padding: 5% 20% 0 20%;
 }
 
+@media screen and (max-width: 768px) {
+    .testimonial-text {
+        padding: 12% 20%;
+    }
+}
+
 
 /* Press Section */
 
@@ -164,9 +271,24 @@ hr {
     text-align: center;
 }
 
+.container-press {
+    padding: 7% 15%;
+}
+
 .logo-icons {
-    height: 30px;
-    margin: 20px 20px 50px;
+    max-width: 20%;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-press {
+        padding: 0 15% 12%;
+    }
+
+    .logo-icons {
+        max-width: 40%;
+        padding: 0 20px 20px;
+    }
 }
 
 /* Pricing Section */
@@ -207,21 +329,42 @@ hr {
     font-weight: bold;
 }
 
+
 /* Call to Action Section */
 
 #cta {
     color: #fff;
     background-color: #ff4c68;
     text-align: center;
-    padding: 80px 200px;
 }
 
 .cta-text {
     font-size: 2.5rem;
 }
 
+@media screen and (max-width: 768px) {
+    .cta-text {
+        font-size: 2rem;
+    }
+}
+
+
 /* Footer Section */
 #footer {
     text-align: center;
-    padding: 80px;
+}
+
+.icon-footer {
+    color: #696969;
+    padding: 15px 10px 25px;
+}
+
+.icon-footer:hover {
+    color: #ff4c68;
+}
+
+@media screen and (max-width: 768px) {
+    .icon-footer {
+        padding: 15px 20px 25px;
+    }
 }
