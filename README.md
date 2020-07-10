@@ -2,7 +2,7 @@
 
 TinDog is a king of version of Tinder for our pets. They also deserve to be happy and in love, so why not also give them the opportunity to find their soulmate? This prototype shows a few features of the app, but the real good comes by using it. You can begin with the free fee and after your first taste, you will become a premium user. 
 
-<h2>Used languages</h2>
+<h2>Languages and Frameworks</h2>
 
 This lovely site is made only with:
 <ul>
