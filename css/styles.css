@@ -1,0 +1,227 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 995px) {
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: 900;
+        line-height: 1.5;
+    }
+    
+    h1 {
+        font-size: 2.5rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1rem;
+    }
+  }
+
+p {
+    color: #8f8f8f;
+}
+
+hr {
+    color: #f7afa6;
+    border-top: 5px dotted; 
+    border-bottom: none;
+    width: 8%;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navigation Bar */
+
+#navbar {
+    overflow: hidden;
+    background-color: #ff4c68;
+    padding: 1% 15% 1%;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 4rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 0 0 20px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: light;
+}
+
+
+/* Tittle Section */
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+}
+
+.title-image {
+    right: 30%;
+    position: absolute;
+    transform: rotate(30deg);
+    width: 60%;    
+}
+
+/* Download buttons  */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* Features Section */
+
+#features {
+    background-color: white;
+    padding: 3% 3%;
+    position: relative;
+    /* z-index: 1; NO ES NECESARIO PONERLO POR LA CONFIGURACIÓN DE POSICIONES */
+}
+
+.icon-box {
+    padding: 0 30px;
+}
+
+.icon-features {
+    color: #ef8172;
+    margin: 30px 0;
+}
+
+.icon-features:hover {
+    color: #ff4c68;
+}
+
+.h3-features {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #dedede;
+    /* color: white; */
+    text-align: center;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.testimonial-img {
+    /* border: 1px solid #ef8172; */
+    border-radius: 50%;
+    max-width: 100px;
+    margin: 3%;
+}
+
+.testimonial-name {
+    color: #8f8f8f;
+    font-size: 0.8rem;
+}
+
+.testimonial-text {
+    padding: 5% 20% 0 20%;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #dedede;
+    text-align: center;
+}
+
+.logo-icons {
+    height: 30px;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+.price-header {
+    background-color: rgba(0,0,0,.03);
+    border: 1px solid;
+    border-color: #dedede;
+    border-radius: 5px 5px 0 0;
+    padding: 3%;
+
+}
+
+.price-body {
+    border: 1px solid;
+    border-top: 0;
+    border-color: #dedede;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+}
+
+.space {
+    padding: 3% 2%;
+}
+
+.name-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* Call to Action Section */
+
+#cta {
+    color: #fff;
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 80px 200px;
+}
+
+.cta-text {
+    font-size: 2.5rem;
+}
+
+/* Footer Section */
+#footer {
+    text-align: center;
+    padding: 80px;
+}
