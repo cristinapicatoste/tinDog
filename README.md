@@ -15,10 +15,9 @@ This lovely site is made only with:
 
 The main objective of the TinDog Project was to replicate a bootcamp exercice implementing the adquired knowledge.
 
-This project has helped me to improve my front-end developer skills and to learn to use and combine different properties of html, css and bootstrap. 
-
 <h3>Learning by doing</h3>
 
+This project has helped me to improve my front-end developer skills and to learn to use and combine different properties of html, css and bootstrap. 
 
 <h2>Author</h2>
 
