@@ -1,1 +1,29 @@
-# tinDog
+<h1>TinDog Project, 2020</h1>
+
+TinDog is a king of version of Tinder for our pets. They also deserve to be happy and in love, so why not also give them the opportunity to find their soulmate? This prototype shows a few features of the app, but the real good comes by using it. You can begin with the free fee and after your first taste, you will become a premium user. 
+
+<h2>Used languages</h2>
+
+This lovely site is made only with:
+<ul>
+   <li>HTML5</li>
+   <li>CSS3</li>
+   <li>A little bit of BOOTSTRAP</li>
+</ul>
+
+<h2>Main objectives</h2>
+
+The main objective of the TinDog Project was to replicate a bootcamp exercice implementing the adquired knowledge.
+
+This project has helped me to improve my front-end developer skills and to learn to use and combine different properties of html, css and bootstrap. 
+
+<h3>Learning by doing</h3>
+
+
+<h2>Author</h2>
+
+Cristina Picatoste
+<br>
+<a href="https://github.com/cristinapicatoste">Github</a>
+<br>
+<a href="https://www.linkedin.com/in/cristinapicatoste/">Linkedin</a>
