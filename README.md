@@ -19,7 +19,7 @@ The main objective of the TinDog Project was to replicate a bootcamp exercice im
 
 This project has helped me to improve my front-end developer skills and to learn to use and combine different properties of html, css and bootstrap. 
 
-<h2>Take a look:</h2>
+<h2>Take a look</h2>
    <a href="https://cristinapicatoste.github.io/tinDog/">TinDog Project</a>, 2020.
    
 <h2>Author</h2>
@@ -28,5 +28,7 @@ This project has helped me to improve my front-end developer skills and to learn
 
 <h6>Contact and other projects</h6>
 <a href="https://github.com/cristinapicatoste">Github</a>
+<br>
 <a href="https://www.linkedin.com/in/cristinapicatoste/">Linkedin</a>
+<br>
 <a href="https://cristinapicatoste.github.io/numerology_calculator/">Numerology Calculator Project</a>
